@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatiz </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- --fonts-- -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <!-- --font-awesome-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- --swiperjs-- -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- --Bootstrap-- -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
+
+    <!-- --AOS-- -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- --Magnific-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- --style-- -->
+    <link rel="stylesheet" href="assets/dist/style.css">
+
+</head>
+
+<body>
+    <!-- --floatings-- -->
+    <a href="#" id="scroll" style="display: none;"> <i class="fas fa-arrow-up"></i></a>
+    <a href="https://wa.me/918178586432" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp whatsapp-float--icon"></i>
+    </a>
+    <!-- -x-floatings-x- -->
+
+    <!-- nav-bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__left-part">
+                <i class="fas fa-phone-square-alt"></i>
+                <h5 class="navbar__contact "> <a href="#" class="navbar__contact">0495-597 XXXX</a>
+                </h5>
+                <i class="fas fa-envelope mobile-nav-icon"></i>
+                <h5 class="navbar__contact ">
+                    <a href="#" class="navbar__contact">eatiz@gmail.com</a>
+                </h5>
+                <i class="fa fa-clock mobile-nav-icon"></i>
+                <h5 class="navbar__contact ">
+                    <a href="#" class="navbar__mail">8:30am to 11:00 pm</a>
+                </h5>
+            </div>
+            <div class="navbar__right-part">
+                <ul class="navbar__social">
+                    <li class="navbar__social-item"> <a href="https://facebook.com/IamAzharAhmad" target="_blank"> <i class="fab fa-facebook"></i>
+                        </a></li>
+                    <li class="navbar__social-item"> <a href="https://instagram.com/IamAzharAhmad" target="_blank"> <i class="fab fa-instagram"></i>
+                        </a></li>
+                    <li class="navbar__social-item"> <a href="https://twitter.com/ImAzharAhmad" target="_blank"> <i class="fab fa-twitter"></i> </a>
+                    </li>
+                    <li class="navbar__social-item"> <a href="https://youtube.com/@ImAzharAhmad" target="_blank"> <i class="fab fa-youtube"></i> </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ---------nav-bar---------- -->
+    <nav class="navigation " id="navbar">
+        <div class="container navigation__content">
+            <div class="overlay hidden"></div>
+            <a href="index.html" class="navigation__logo">
+                <img src="assets/img/logo.svg" class="navigation__logo--1" alt="logo">
+                <img src="assets/img/logo-2.svg" class="navigation__logo--2" alt="logo">
+            </a>
+            <ul class="navigation__list">
+                <li class="navigation__items"> <a href="index.html" class="navigation__link active">Home</a></li>
+                <li class="navigation__items"> <a href="about.html" class="navigation__link "> About</a></li>
+                <li class="navigation__items"> <a href="menu.html" class="navigation__link ">Menu</a></li>
+
+                <li class="navigation__items"> <a href="blog.html" class="navigation__link ">Blog</a></li>
+
+                <li class="navigation__items"> <a href="contact.html" class="navigation__link">Contact Us</a></li>
+                <li class="navigation__items mobile-btn"> <a href="reservation.html" class="navigation__link ">Book your
+                        Seat</a></li>
+            </ul>
+
+            <a href="reservation.html" class="btn btn--nav">Book Now <span></span></a>
+
+
+            <div class="navigation__menu ">
+                <ul class="open-btn">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ---------nav-bar---------- -->
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12 col-12 header__left-part">
+                    <h1 class="header__title"> We belive good food offer great smile </h1>
+                    <h3 class="header__sub-title">The Eatiz restaurant is a neighborhood restaurant serving best meals
+                        and cuisines in the town.</h3>
+                    <a href="#reservation" class="btn btn--header"> Reserve a Table </a>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- x header x -->
+
+    <!-- --Book a table-- -->
+    <div class="reservation section-padding " id="reservation" data-aos="fade-up">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading__primary">Reserve a Table </h2>
+                <p class="heading__subtitle">Book a table online. Leads will reach in your email.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <form action="#" class="reservation__form">
+                        <div class="reservation__form-group">
+                            <div class="reservation__form-item">
+                                <input type="text" class="reservation__form-input" placeholder="Your Name" for="name">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="reservation__form-item">
+                                <input type="tel" class="reservation__form-input" placeholder="Your Phone" for="phone">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                        <div class="reservation__form-group">
+                            <div class="reservation__form-item reservation__form-item--small">
+                                <input class="reservation__form-input" type="text" id="datepicker" for="date"
+                                    style="cursor: pointer;" placeholder="date" autocomplete="off">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="reservation__form-item reservation__form-item--small">
+                                <!-- <input type="type" class="reservation__form-input" placeholder="people" for=" people"> -->
+                                <select class="reservation__form-input" for=" people">
+                                    <option value="">no. of people</option>
+                                    <option value="">more than 6</option>
+                                    <option value="">6 people</option>
+                                    <option value="">5 people</option>
+                                    <option value="">4 people</option>
+                                    <option value="">3 people</option>
+                                    <option value="">2 people</option>
+                                    <option value="">1 people</option>
+                                </select>
+                                <i class="fas fa-users"></i>
+
+                            </div>
+                            <div class="reservation__form-item reservation__form-item--small">
+                                <input type="text" class="reservation__form-input" placeholder="8:00 pm" for="Time"
+                                    id="reserve-time">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="reservation__button-div">
+                            <button class="btn reservation__btn" type="submit">Reserve</button>
+                        </div>
+                        <div class="reservation__footer">
+                            <p>You can also call: <strong>0495-597940</strong> to make a reservation.</p>
+                            <span></span>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="reservation__img">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -x-Book a table-x- -->
+
+
+    <!-- ----About---- -->
+    <section class="about section-padding " data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-12 about__right-part">
+                    <img src="assets/img/restaurant-5.jpg" alt="about-img" class="paralax-image">
+                </div>
+                <div class="col-md-12 col-lg-6 col-12 about__left-part">
+                    <h2 class="heading__primary heading__primary--about">About Eatiz</h2>
+                    <p class="paragraph paragraph--about">The Eatiz restaurant was est in 2010 in Kozhikode, Kerala.
+                        With more than 10 years of experience and base on traditional recipes, we understand how to best
+                        serve our customers through tried service principles. Instead of following
+                        trends, we set them. We create our foods and meals, we’re proud to serve and deliver it fast,
+                        with a smile. No matter where you find us, we’re making sure each meal our clients enjoy is
+                        delicious and one-of-a-kind. Our dishes is
+                        always perfect and our professional team working hard to make you happy.
+                    </p>
+                    <p class="paragraph paragraph--about">
+                        We pride ourselves on the quality of our food. We are constantly changing our menu to highlight
+                        what is in season and to celebrate the best local produce we can find. We try and cater for
+                        everyone with plenty of vegetarian, vegan, gluten free and dairy
+                        free options.
+                    </p>
+
+                    <a href="about.html" class="btn btn--about"> <span></span> Read More</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- --x--About--x-- -->
+    <!-- --why-choose-us-- -->
+    <div class="wcu section-padding " id="why-choose-us" data-aos="fade-up">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading__primary">Why Choose Us </h2>
+                <p class="heading__subtitle">Little things make us best in town </p>
+            </div>
+            <div class="wcu__contents">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="wcu__single-card">
+                            <div class="wcu__img-box">
+                                <img src="assets/img/chef.png" alt="card img 1">
+                            </div>
+                            <h2 class="heading__primary heading__primary--wcu">Best Chef</h2>
+                            <p class="paragraph paragraph--wcu">
+                                Our chef is a trained professional cook and tradesman who is proficient in all aspects
+                                of food preparation
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="wcu__single-card">
+                            <div class="wcu__img-box">
+                                <img src="assets/img/food.png" alt="card img 2">
+                            </div>
+                            <h2 class="heading__primary heading__primary--wcu">Fresh Food</h2>
+                            <p class="paragraph paragraph--wcu">
+                                Fresh food is food which has not been preserved and has not spoiled yet. For vegetables
+                                and fruits.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="wcu__single-card">
+                            <div class="wcu__img-box">
+                                <img src="assets/img/delivery.png" alt="card img 1">
+                            </div>
+                            <h2 class="heading__primary heading__primary--wcu">Fast Delivery</h2>
+                            <p class="paragraph paragraph--wcu">
+                                Get Fast Food delivery, fast. Easy online ordering for takeout and delivery from Fast
+                                Food restaurants near you.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -x-why-choose-us-x- -->
+    <!-- --Testimonial-- -->
+    <div class="testimonial section-padding " data-aos="fade-up">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading__primary heading__primary--testimonial">What Our Customer Saying ? </h2>
+                <p class="heading__subtitle heading__subtitle--testimonial">What other people thought about the food and
+                    services provided by Eatiz </p>
+            </div>
+            <div class="swiper-container testimonial__swiper ">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+
+                        <div class="testimonial__reviews">
+                            <figure class="review">
+                                <p class="review__text">
+                                    <!-- <span class="review__quotes"></span> -->
+                                    We visited this place for breakfast and dinner. The place is very conveniently
+                                    located (on the highway ) with ample parking space. The food at both the meals was
+                                    tasty and definitely worth the price. Good quantity served per portion. Service as
+                                    also good.
+                                </p>
+                                <figcaption class="review__user">
+                                    <img src="assets/img/review3.png" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Fazil Majeed</p>
+                                        <p class="review__user-description">Customer</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="testimonial__reviews">
+                            <figure class="review">
+                                <p class="review__text">
+                                    <!-- <span class="review__quotes"></span> -->
+                                    Best service I have ever seen in Sydney. Very polite staff, beautiful serving and
+                                    serving dishes. Love their burgers. At weekends they have special offers, that’s are
+                                    very affordable for me and very tasty! Also fast and free delivery - that is
+                                    amazing.
+                                    Often I order their lunch at work in the office. Everything is tasty and fast.
+                                </p>
+                                <figcaption class="review__user">
+                                    <img src="assets/img/review7.png" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Malik</p>
+                                        <p class="review__user-description">Customer</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -x-Testimonial-x- -->
+    <!-- --menu-- -->
+    <div class="menu section-padding " data-aos="fade-up">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading__primary">Popular Menu </h2>
+                <p class="heading__subtitle"> We do not serve only food in a restaurant but fulfill dreams with a taste
+                    nestled in the rooftop</p>
+            </div>
+            <div class="menu__collections">
+
+                <ul class="menu__buttons">
+                    <li class="menu__buttons-item active" data-filter="all">all</li>
+                    <li class="menu__buttons-item" data-filter="starters">Starters</li>
+                    <li class="menu__buttons-item" data-filter="mains">Main Course</li>
+                    <li class="menu__buttons-item" data-filter="dessert">Dessert</li>
+                </ul>
+            </div>
+
+            <div class="menu__items">
+                <div class="row">
+                    <!-- --single-menu-- -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-12 menu__single-item starters menu__single-item--first">
+                        <div class="menu__item">
+                            <div class="menu__img-box">
+                                <img src="assets/img/menu/menu_19.jpg" alt="">
+                            </div>
+                            <div class="menu__details">
+                                <div class="menu__price-n-stars">
+                                    <h3 class="menu__title">Chicken Tikka Salad</h3>
+                                    <h5 class="menu__price"><span> Rs 170 </span></h5>
+                                </div>
+                                <div class="menu__hr"></div>
+                                <p class="paragraph menu__description">chicken tikka sizzler is a dish where chicken
+                                    tikka is served on a heated plate with onions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -x-single-menu-x- -->
+
+                    <!-- --single-menu-- -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-12 menu__single-item mains ">
+                        <div class="menu__item">
+                            <div class="menu__img-box">
+                                <img src="assets/img/menu/menu_2.jpg" alt="">
+                            </div>
+                            <div class="menu__details">
+                                <div class="menu__price-n-stars">
+                                    <h3 class="menu__title">Grilled Prawns</h3>
+                                    <h5 class="menu__price"><span> Rs 599 </span></h5>
+                                </div>
+                                <div class="menu__hr"></div>
+                                <p class="paragraph menu__description">Large King Prawns, Cloves Garlic, Lemon,Olive
+                                    oil, Kashmiri chili powder were used .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -x-single-menu-x- -->
+
+                    <!-- --single-menu-- -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-12 menu__single-item dessert ">
+                        <div class="menu__item">
+                            <div class="menu__img-box">
+                                <img src="assets/img/menu/menu_7.jpg" alt="">
+                            </div>
+                            <div class="menu__details">
+                                <div class="menu__price-n-stars">
+                                    <h3 class="menu__title">Ice Cream</h3>
+                                    <h5 class="menu__price"><span> Rs 75 </span></h5>
+                                </div>
+                                <div class="menu__hr"></div>
+                                <p class="paragraph menu__description">Ice cream is a sweetened frozen food typically
+                                    eaten as a snack or dessert.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -x-single-menu-x- -->
+                    <!-- --single-menu-- -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-12 menu__single-item mains">
+                        <div class="menu__item">
+                            <div class="menu__img-box">
+                                <img src="assets/img/menu/menu_15.jpg" alt="">
+                            </div>
+                            <div class="menu__details">
+                                <div class="menu__price-n-stars">
+                                    <h3 class="menu__title">Hummus</h3>
+                                    <h5 class="menu__price"><span> Rs 100 </span></h5>
+                                </div>
+                                <div class="menu__hr"></div>
+                                <p class="paragraph menu__description">Hummus salad is an Arab salad and Is one of the
+                                    popular salads known in the Arab world.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -x-single-menu-x- -->
+
+                    <!-- --single-menu-- -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-12 menu__single-item starters ">
+                        <div class="menu__item">
+                            <div class="menu__img-box">
+                                <img src="assets/img/menu/menu_8.jpg" alt="">
+                            </div>
+                            <div class="menu__details">
+                                <div class="menu__price-n-stars">
+                                    <h3 class="menu__title">Hot dog</h3>
+                                    <h5 class="menu__price"><span> Rs 350 </span></h5>
+                                </div>
+                                <div class="menu__hr"></div>
+                                <p class="paragraph menu__description">A hot dog is a food consisting of a grilled
+                                    sausage served in the slit of a sliced bun.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -x-single-menu-x- -->
+                    <!-- --single-menu-- -->
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-12 menu__single-item mains ">
+                        <div class="menu__item">
+                            <div class="menu__img-box">
+                                <img src="assets/img/menu/menu_4.jpg" alt="">
+                            </div>
+                            <div class="menu__details">
+                                <div class="menu__price-n-stars">
+                                    <h3 class="menu__title">Pasta Aglio</h3>
+                                    <h5 class="menu__price"><span> Rs 220 </span></h5>
+                                </div>
+                                <div class="menu__hr"></div>
+                                <p class="paragraph menu__description">Aglio Pasta is a traditional Italian pasta dish
+                                    from Naples.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -x-single-menu-x- -->
+                </div>
+            </div>
+
+            <div class="line-btn__box">
+                <a href="menu.html" class="btn btn-outline-primary">View More</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- -x-menu-x- -->
+    <!-- --news-letter-- -->
+    <div class="news-letter section-padding " data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="news-letter__left-part">
+                        <div class="heading heading--news-letter">
+                            <h2 class="text-start heading__primary heading__primary--testimonial">Subscribe News Letter for Get
+                                Update
+                            </h2>
+                            <p class="heading__subtitle heading__subtitle--news-letter">Signup for our weekily
+                                newsletter to get the latest news, updates and amazing offers delivered directly in your
+                                inbox. </p>
+                        </div>
+                        <div class="news-letter__content">
+                            <input type="email" class="news-letter__input" placeholder="Enter your email">
+                            <button class="btn news-letter__submit">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="assets/img/subscribe-main.png" alt="" class="news-letter__img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -x-news-letter-x- -->
+    <!-- --delivery-- -->
+    <div class="delivery section-padding" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-12 about__right-part">
+                    <img src="assets/img/home-delivery.png" alt="about-img" class="paralax-image">
+                </div>
+                <div class="col-md-12 col-lg-6 col-12 about__left-part delivery__right-part">
+                    <h2 class="heading__primary ">A Moments Of Delivered On Right Time & Place</h2>
+                    <p class="paragraph ">We delivering the fastest way! It does not matter where you are: working at
+                        office, sitting at home or take a walk in the park. If you will be hungry - we will find you
+                        everywhere and deliver to you perfect meal from our menu.
+                    </p>
+
+                    <div class="delivery__details">
+                        <img src="assets/img/delivery-boy.png" alt="delivery-boy">
+                        <div class="delivery__contact">
+                            <h5 class="delivery__order">
+                                Delivery Order Num.
+                            </h5>
+                            <h2 class="delivery__number">
+                                0495-597940
+                            </h2>
+
+                        </div>
+                        <a href="#" class="btn btn--about delivery__btn"> <span></span> Order Now</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -x-delivery-x- -->
+    <!-- --instagram-- -->
+    <div class="instagram ">
+        <!-- <div class="container-fluid"> -->
+        <div class="swiper-container instagram__swiper ">
+            <div class="swiper-wrapper ">
+                <div class="instagram__single-item swiper-slide">
+                    <a href="assets/img/instagram/jalao-home-gallery-1.jpg" class="instagram__magnific">
+                        <img src="assets/img/instagram/jalao-home-gallery-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="instagram__single-item swiper-slide">
+                    <a href="assets/img/instagram/jalao-home-gallery-2.jpg" class="instagram__magnific">
+                        <img src="assets/img/instagram/jalao-home-gallery-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="instagram__single-item swiper-slide">
+                    <a href="assets/img/instagram/jalao-home-gallery-3.jpg" class="instagram__magnific">
+                        <img src="assets/img/instagram/jalao-home-gallery-3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="instagram__single-item swiper-slide">
+                    <a href="assets/img/instagram/jalao-home-gallery-4.jpg" class="instagram__magnific">
+                        <img src="assets/img/instagram/jalao-home-gallery-4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="instagram__single-item swiper-slide">
+                    <a href="assets/img/instagram/jalao-home-gallery-5.jpg" class="instagram__magnific">
+                        <img src="assets/img/instagram/jalao-home-gallery-5.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- </div> -->
+    </div>
+    <!-- -x-instagram-x- -->
+
+    <!-- --blog-- -->
+    <div class="blog section-padding " data-aos="fade-up">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading__primary">Our Regular Blogs </h2>
+                <p class="heading__subtitle">Below are the some of the blogs written by our professional chefs </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="blog__single-item">
+                        <img src="assets/img/blog/blog1.jpg" alt="" class="blog__img">
+                        <h2 class="blog__date">01 nov 2023</h2>
+                        <div class="blog__details">
+                            <h1 class="blog__title">Brief About How to Make Pasta</h1>
+                            <p class=" paragraph blog__description">Lorem ipsum dolor sit amet, consectetur elit,
+                                adipiscing sed do eiusmod tempor incididunt ut labore</p>
+                            <a href="#" class="blog__btn">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="blog__single-item">
+                        <img src="assets/img/blog/blog2.jpg" alt="" class="blog__img">
+                        <h2 class="blog__date">01 sept 2023</h2>
+                        <div class="blog__details">
+                            <h1 class="blog__title">Brief About How to Make Pizza</h1>
+                            <p class=" paragraph blog__description">Lorem ipsum dolor sit amet, consectetur elit,
+                                adipiscing sed do eiusmod tempor incididunt ut labore</p>
+                            <a href="#" class="blog__btn">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="blog__single-item">
+                        <img src="assets/img/blog/blog3.jpg" alt="" class="blog__img">
+                        <h2 class="blog__date">25 Aug 2023</h2>
+                        <div class="blog__details">
+                            <h1 class="blog__title">Brief About How to Make Burger</h1>
+                            <p class=" paragraph blog__description">Lorem ipsum dolor sit amet, consectetur elit,
+                                adipiscing sed do eiusmod tempor incididunt ut labore</p>
+                            <a href="#" class="blog__btn">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line-btn__box">
+                <a href="blog.html" class=" btn btn-outline-primary ">View More</a>
+            </div>
+        </div>
+    </div>
+    <!-- -x-blog-x- -->
+    <!-- -----footer------- -->
+    <footer class="footer">
+        <div class="container">
+
+            <ul class="footer__list">
+
+                <li class="footer__items">
+                    <img src="assets/img/logo.svg" alt="footer img" class="footer__logo">
+                    <p class="paragraph paragraph--footer">The Eatiz restaurant was est in 2010 in Kozhikode,Kerala.
+                        With more than 10 years of experience and base on traditional recipes, we understand how to best
+                        serve our customers through tried service principles
+                    </p>
+
+                </li>
+                <li class="footer__items">
+                    <h3 class="footer__sub-heading"> Contact</h3>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-li">
+                            <p class="footer__address">
+                                Parco Complex, Opposite New Bus Stand, Arayidathupalam, kozhikode, kerala
+                            </p>
+                        </li>
+                        <li class="footer__nav-li">
+                            <p class="footer__address footer__address--contact">
+                                Landline : 0495-59 XXXX <br> Mobile : 9459-79 XXXX, 9494-06 XXXX
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="footer__items">
+                    <h3 class="footer__sub-heading">Navigation</h3>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-li"> <a href="index.html" class="footer__nav-items">Home </a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="about.html" class="footer__nav-items">About
+                            </a></li>
+                        <li class="footer__nav-li"> <a href="menu.html" class="footer__nav-items">Menu
+                            </a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="contact.html" class="footer__nav-items">Contact
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+                <li class="footer__items">
+                    <h3 class="footer__sub-heading">Social Links</h3>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-li"> <a href="https://instagram.com/IamAzharAhmad"
+                                class="footer__nav-items">Instagram </a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="https://twitter.com/ImAzharAhmad"
+                                class="footer__nav-items">Twitter</a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="https://facebook.com/IamAzharAhmad"
+                                class="footer__nav-items">Facebook</a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="https://youtube.com/@ImAzharAhmad"
+                                class="footer__nav-items">Youtube </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <hr class="footer__hr">
+            <div class="footer__copyright">
+                <h2> Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Eatiz &nbsp; | &nbsp; Made with love ❤ By <a class="text-danger"
+                        href="https://domnify.com">Azhar Ahmad</a>
+                </h2>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- -xx----footer--xx----- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/jquery.timepicker.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="assets/dist/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatiz </title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- --fonts-- -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <!-- --font-awesome-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <!-- --Bootstrap-- -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
+
+    <!-- --style-- -->
+    <link rel="stylesheet" href="assets/dist/style.css">
+</head>
+
+<body>
+    <!-- --floatings-- -->
+    <a href="#" id="scroll" style="display: none;"> <i class="fas fa-arrow-up"></i></a>
+    <a href="#/" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp whatsapp-float--icon"></i>
+    </a>
+    <!-- -x-floatings-x- -->
+    <!-- nav-bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__left-part">
+                <i class="fas fa-phone-square-alt"></i>
+                <h5 class="navbar__contact "> <a href="#" class="navbar__contact">0495-597 XXXX</a>
+                </h5>
+                <i class="fas fa-envelope mobile-nav-icon"></i>
+                <h5 class="navbar__contact ">
+                    <a href="#" class="navbar__contact">eatiz@gmail.com</a>
+                </h5>
+                <i class="fa fa-clock mobile-nav-icon"></i>
+                <h5 class="navbar__contact ">
+                    <a href="#" class="navbar__mail">8:30am to 11:00 pm</a>
+                </h5>
+            </div>
+            <div class="navbar__right-part">
+                <ul class="navbar__social">
+                    <li class="navbar__social-item"> <a href="https://facebook.com/IamAzharAhmad" target="_blank"> <i class="fab fa-facebook"></i>
+                        </a></li>
+                    <li class="navbar__social-item"> <a href="https://instagram.com/IamAzharAhmad" target="_blank"> <i class="fab fa-instagram"></i>
+                        </a></li>
+                    <li class="navbar__social-item"> <a href="https://twitter.com/ImAzharAhmad" target="_blank"> <i class="fab fa-twitter"></i> </a>
+                    </li>
+                    <li class="navbar__social-item"> <a href="https://youtube.com/@ImAzharAhmad" target="_blank"> <i class="fab fa-youtube"></i> </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ---------nav-bar---------- -->
+    <nav class="navigation " id="navbar">
+        <div class="container navigation__content">
+            <div class="overlay hidden"></div>
+            <a href="index.html" class="navigation__logo">
+                <img src="assets/img/logo.svg" class="navigation__logo--1" alt="logo">
+                <img src="assets/img/logo-2.svg" class="navigation__logo--2" alt="logo">
+            </a>
+            <ul class="navigation__list">
+                <li class="navigation__items"> <a href="index.html" class="navigation__link">Home</a></li>
+                <li class="navigation__items"> <a href="about.html" class="navigation__link "> About</a></li>
+                <li class="navigation__items"> <a href="menu.html" class="navigation__link">Menu</a></li>
+
+                <li class="navigation__items"> <a href="blog.html" class="navigation__link ">Blog</a></li>
+
+                <li class="navigation__items"> <a href="contact.html" class="navigation__link">Contact Us</a></li>
+                <li class="navigation__items mobile-btn"> <a href="reservation.html" class="navigation__link ">Book your
+                        Seat</a></li>
+            </ul>
+
+
+            <a href="#/" class="btn btn--nav">Book Seat <span></span></a>
+
+
+            <div class="navigation__menu ">
+                <ul class="open-btn">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ---------nav-bar---------- -->
+    <!-- --bread-crumb-- -->
+    <div class="breadcrumb">
+        <div class="breadcrumb__overlay"></div>
+        <div class="container breadcrumb__container">
+            <div class="breadcrumb__heading">
+                <h1 class="breadcrumb__title">
+                    Reserve a Table
+                </h1>
+                <h4 class="breadcrumb__navigator">
+                    <a href="index.html"> Home </a> <i class="fas fa-chevron-right"></i> Reservation
+                </h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- -x-bread-crumb-x- -->
+    <!-- --Book a table-- -->
+    <div class="reservation section-padding " id="reservation">
+        <div class="container">
+            <div class="heading">
+                <h2 class="heading__primary">Reserve a Table </h2>
+                <p class="heading__subtitle">If you plan your leisure in advance and do not want to get into a situation
+                    when the planned dinner is canceled due to the lack of free seats, reserve a table in advance. You
+                    can reserve a table by filling out the form below.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <form action="#" class="reservation__form">
+                        <div class="reservation__form-group">
+                            <div class="reservation__form-item">
+                                <input type="text" class="reservation__form-input" placeholder="Your Name" for="name">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="reservation__form-item">
+                                <input type="tel" class="reservation__form-input" placeholder="Your Phone" for="phone">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                        <div class="reservation__form-group">
+                            <div class="reservation__form-item reservation__form-item--small">
+                                <input class="reservation__form-input" type="text" id="datepicker" for="date"
+                                    style="cursor: pointer;" placeholder="date" autocomplete="off">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="reservation__form-item reservation__form-item--small">
+                                <!-- <input type="type" class="reservation__form-input" placeholder="people" for=" people"> -->
+                                <select class="reservation__form-input" for=" people">
+                                    <option value="">no. of people</option>
+                                    <option value="">more than 6</option>
+                                    <option value="">6 people</option>
+                                    <option value="">5 people</option>
+                                    <option value="">4 people</option>
+                                    <option value="">3 people</option>
+                                    <option value="">2 people</option>
+                                    <option value="">1 people</option>
+                                </select>
+                                <i class="fas fa-users"></i>
+
+                            </div>
+                            <div class="reservation__form-item reservation__form-item--small">
+                                <input type="text" class="reservation__form-input" placeholder="8:00 pm" for="Time"
+                                    id="reserve-time">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="reservation__button-div">
+                            <button class="btn reservation__btn" type="submit">Reserve</button>
+                        </div>
+                        <div class="reservation__footer">
+                            <p>You can also call: <strong>0495-597940</strong> to make a reservation.</p>
+                            <span></span>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="reservation__img">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -x-Book a table-x- -->
+
+    <!-- -----footer------- -->
+    <footer class="footer">
+        <div class="container">
+
+            <ul class="footer__list">
+
+                <li class="footer__items">
+                    <img src="assets/img/logo.svg" alt="footer img" class="footer__logo">
+                    <p class="paragraph paragraph--footer">The Eatiz restaurant was est in 2010 in Kozhikode,Kerala.
+                        With more than 10 years of experience and base on traditional recipes, we understand how to best
+                        serve our customers through tried service principles
+                    </p>
+
+                </li>
+                <li class="footer__items">
+                    <h3 class="footer__sub-heading"> Contact</h3>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-li">
+                            <p class="footer__address">
+                                Parco Complex, Opposite New Bus Stand, Arayidathupalam, kozhikode, kerala
+                            </p>
+                        </li>
+                        <li class="footer__nav-li">
+                            <p class="footer__address footer__address--contact">
+                                Landline : 0495-59 XXXX <br> Mobile : 9459-79 XXXX, 9494-06 XXXX
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="footer__items">
+                    <h3 class="footer__sub-heading">Navigation</h3>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-li"> <a href="index.html" class="footer__nav-items">Home </a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="about.html" class="footer__nav-items">About
+                            </a></li>
+                        <li class="footer__nav-li"> <a href="menu.html" class="footer__nav-items">Menu
+                            </a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="contact.html" class="footer__nav-items">Contact
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+                <li class="footer__items">
+                    <h3 class="footer__sub-heading">Social Links</h3>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-li"> <a href="https://instagram.com/IamAzharAhmad"
+                                class="footer__nav-items">Instagram </a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="https://twitter.com/ImAzharAhmad"
+                                class="footer__nav-items">Twitter</a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="https://facebook.com/IamAzharAhmad"
+                                class="footer__nav-items">Facebook</a>
+                        </li>
+                        <li class="footer__nav-li"> <a href="https://youtube.com/@ImAzharAhmad"
+                                class="footer__nav-items">Youtube </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <hr class="footer__hr">
+            <div class="footer__copyright">
+                <h2> Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Eatiz &nbsp; | &nbsp; Made with love ❤ By <a class="text-danger"
+                        href="https://domnify.com">Azhar Ahmad</a>
+                </h2>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- -xx----footer--xx----- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/jquery.timepicker.min.js"></script>
+    <script src="assets/dist/main.js"></script>
+</body>
+
+</html>
